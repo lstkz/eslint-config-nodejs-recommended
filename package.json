@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-nodejs-recommended",
+  "version": "1.0.0",
+  "description": "ESLint config for nodejs with babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsentkiewicz/eslint-config-nodejs-recommended.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "recommended",
+    "nodejs",
+    "eslintconfig"
+  ],
+  "author": "Łukasz Sentkiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lsentkiewicz/eslint-config-nodejs-recommended/issues"
+  },
+  "homepage": "https://github.com/lsentkiewicz/eslint-config-nodejs-recommended#readme"
+}
