@@ -5,9 +5,9 @@ It contains plugins:
 - [eslint-plugin-lodash-fp](https://github.com/jfmengels/eslint-plugin-lodash-fp) - ESLint rules for lodash/fp (`underscore` is forbidden)
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) - ESLint plugin with rules that help validate proper imports (`require` is forbidden)
 
-## Usage
+## Installations
 
-`npm install --save-dev eslint eslint-config-nodejs-recommended eslint-plugin-lodash-fp eslint-plugin-import`
+`npm install --save-dev eslint eslint-config-nodejs-recommended eslint-plugin-lodash-fp eslint-plugin-import eslint-plugin-babel babel-eslint`
 
 ## Usage
 

@@ -15,7 +15,7 @@ module.exports = {
 
     // enforce camelcase naming convention
     // http://eslint.org/docs/rules/camelcase
-    'camelcase': ['error', {properties: 'never'}],
+    camelcase: ['error', { properties: 'never' }],
 
     // require or disallow trailing commas
     // http://eslint.org/docs/rules/comma-dangle
@@ -51,7 +51,7 @@ module.exports = {
 
     // enforce the consistent use of either function declarations or expressions
     // http://eslint.org/docs/rules/func-style
-    'func-style': ['error', declaration, { allowArrowFunctions: true }],
+    'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
 
     // disallow specified identifiers
     // http://eslint.org/docs/rules/id-blacklist
@@ -67,7 +67,7 @@ module.exports = {
 
     // enforce consistent indentation
     // http://eslint.org/docs/rules/indent
-    'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
+    indent: ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
 
     // enforce the consistent use of either double or single quotes in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
@@ -85,8 +85,8 @@ module.exports = {
       overrides: {
         return: { after: true },
         throw: { after: true },
-        case: { after: true }
-      }
+        case: { after: true },
+      },
     }],
 
     // enforce position of line comments
@@ -144,7 +144,7 @@ module.exports = {
 
     // require constructor function names to begin with a capital letter
     // http://eslint.org/docs/rules/new-cap
-    'new-cap':  ['error', { capIsNew: false }],
+    'new-cap': ['error', { capIsNew: false }],
 
     // require parentheses when invoking a constructor with no arguments
     // http://eslint.org/docs/rules/new-parens
@@ -190,9 +190,9 @@ module.exports = {
         ['&', '|', '^', '~', '<<', '>>', '>>>'],
         ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
         ['&&', '||'],
-        ['in', 'instanceof']
+        ['in', 'instanceof'],
       ],
-      allowSamePrecedence: false
+      allowSamePrecedence: false,
     }],
 
     // disallow mixed spaces and tabs for indentation
@@ -341,16 +341,16 @@ module.exports = {
 
     // enforce consistent spacing after the // or /* in a comment
     // http://eslint.org/docs/rules/spaced-comment
-    'spaced-comment': ["error", "always", {
-      "line": {
-        "markers": ["/"],
-        "exceptions": ["-", "+"]
+    'spaced-comment': ['error', 'always', {
+      line: {
+        markers: ['/'],
+        exceptions: ['-', '+'],
       },
-      "block": {
-        "markers": ["!"],
-        "exceptions": ["*"],
-        "balanced": true
-      }
+      block: {
+        markers: ['!'],
+        exceptions: ['*'],
+        balanced: true,
+      },
     }],
 
     // require or disallow Unicode byte order mark (BOM)
@@ -360,5 +360,5 @@ module.exports = {
     // require parenthesis around regex literals
     // http://eslint.org/docs/rules/wrap-regex
     'wrap-regex': 'off',
-  }
+  },
 };

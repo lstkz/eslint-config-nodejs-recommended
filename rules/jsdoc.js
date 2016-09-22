@@ -20,5 +20,5 @@ module.exports = {
       requireReturnDescription: false,
       requireReturnType: true,
     }],
-  }
+  },
 };

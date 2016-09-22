@@ -21,7 +21,7 @@ module.exports = {
 
     // enforce consistent spacing around * operators in generator functions
     // http://eslint.org/docs/rules/generator-star-spacing
-    'generator-star-spacing': ['error', {before: false, after: true}],
+    'generator-star-spacing': ['error', { before: false, after: true }],
 
     // disallow reassigning class members
     // http://eslint.org/docs/rules/no-class-assign
@@ -140,7 +140,7 @@ module.exports = {
 
     // require or disallow spacing around the * in yield* expressions
     // http://eslint.org/docs/rules/yield-star-spacing
-    'yield-star-spacing': ['error', 'after']
+    'yield-star-spacing': ['error', 'after'],
 
-  }
+  },
 };

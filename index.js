@@ -1,17 +1,17 @@
 module.exports = {
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   env: {
     node: true,
-    es6: true
+    es6: true,
   },
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
   },
   plugins: [
-    "lodash-fp",
-    "import",
-    "babel"
+    'lodash-fp',
+    'import',
+    'babel',
   ],
   extends: [
     './rules/best-practices',
@@ -23,5 +23,5 @@ module.exports = {
     './rules/es6',
     './rules/imports',
     './rules/lodash-fp',
-  ].map(require.resolve)
+  ].map(require.resolve),
 };

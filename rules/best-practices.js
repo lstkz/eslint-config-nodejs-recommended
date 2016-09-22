@@ -20,7 +20,7 @@ module.exports = {
 
     // enforce a maximum cyclomatic complexity allowed in a program
     // http://eslint.org/docs/rules/complexity
-    'complexity': ['error', 20],
+    complexity: ['error', 20],
 
     // require return statements to either always or never specify values
     // http://eslint.org/docs/rules/consistent-return
@@ -28,7 +28,7 @@ module.exports = {
 
     // enforce consistent brace style for all control statements
     // http://eslint.org/docs/rules/curly
-    'curly': ['error', 'all'],
+    curly: ['error', 'all'],
 
     // require default cases in switch statements
     // http://eslint.org/docs/rules/default-case
@@ -44,7 +44,7 @@ module.exports = {
 
     // require the use of === and !==
     // http://eslint.org/docs/rules/eqeqeq
-    'eqeqeq': ['error', 'allow-null'],
+    eqeqeq: ['error', 'allow-null'],
 
     // require for-in loops to include an if statement
     // http://eslint.org/docs/rules/guard-for-in
@@ -149,7 +149,7 @@ module.exports = {
 
     // disallow magic numbers
     // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': ['error', {enforceConst: true, ignore: [1]}],
+    'no-magic-numbers': ['error', { enforceConst: true, ignore: [1] }],
 
     // disallow multiple spaces
     // http://eslint.org/docs/rules/no-multi-spaces
@@ -253,7 +253,7 @@ module.exports = {
 
     // enforce the consistent use of the radix argument when using parseInt()
     // http://eslint.org/docs/rules/radix
-    'radix': 'error',
+    radix: 'error',
 
     // require var declarations be placed at the top of their containing scope
     // http://eslint.org/docs/rules/vars-on-top
@@ -265,6 +265,6 @@ module.exports = {
 
     // require or disallow “Yoda” conditions
     // http://eslint.org/docs/rules/yoda
-    'yoda': 'error',
-  }
+    yoda: 'error',
+  },
 };

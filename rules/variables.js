@@ -49,5 +49,5 @@ module.exports = {
     // http://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': ['error', 'nofunc'],
 
-  }
+  },
 };

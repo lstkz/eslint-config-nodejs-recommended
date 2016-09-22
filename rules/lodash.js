@@ -6,7 +6,7 @@ module.exports = {
     'lodash/chain-style': ['error', 'as-needed'],
     'lodash/collection-method-value': 'error',
     'lodash/collection-return': 'error',
-    'lodash/consistent-compose': ['error', "flow"],
+    'lodash/consistent-compose': ['error', 'flow'],
     'lodash/identity-shorthand': ['error', 'always'],
     'lodash/matches-prop-shorthand': ['error', 'always'],
     'lodash/matches-shorthand': ['error', 'always', 3],
@@ -21,7 +21,7 @@ module.exports = {
     'lodash/prefer-filter': ['error', 3],
     'lodash/prefer-flat-map': 'error',
     'lodash/prefer-get': ['error', 3],
-    'lodash/prefer-includes': ['error', {includeNative: true}],
+    'lodash/prefer-includes': ['error', { includeNative: true }],
     'lodash/prefer-invoke-map': 'error',
     'lodash/prefer-is-nil': 'error',
     'lodash/prefer-lodash-chain': 'error',
@@ -38,6 +38,6 @@ module.exports = {
     'lodash/prefer-wrapper-method': 'error',
     'lodash/preferred-alias': 'error',
     'lodash/prop-shorthand': ['error', 'always'],
-    'lodash/unwrap': 'error'
-  }
+    'lodash/unwrap': 'error',
+  },
 };

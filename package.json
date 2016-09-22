@@ -4,7 +4,8 @@
   "description": "ESLint config for nodejs with babel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,13 @@
   "homepage": "https://github.com/lsentkiewicz/eslint-config-nodejs-recommended#readme",
   "peerDependencies": {
     "eslint": "^3.5.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-lodash-fp": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.5.0",
+    "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-import": "^1.15.0",
     "eslint-plugin-lodash-fp": "^2.0.1"
   }

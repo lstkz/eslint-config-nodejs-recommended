@@ -1,0 +1,9 @@
+{
+  "extends": "./index.js",
+  "rules": {
+    // our repo is not a babel
+    "import/no-commonjs": 0,
+    // magic number for rule configuration
+    "no-magic-numbers": 0,
+  }
+}
