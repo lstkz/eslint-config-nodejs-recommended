@@ -1,4 +1,5 @@
 # Recommended ESLint config for node.js (with babel)
+[![Build Status](https://travis-ci.org/lsentkiewicz/eslint-config-nodejs-recommended.svg?branch=master)](https://travis-ci.org/lsentkiewicz/eslint-config-nodejs-recommended)
 
 This package contains an extensible shared config for nodejs apps written using babel.  
 It contains plugins:
