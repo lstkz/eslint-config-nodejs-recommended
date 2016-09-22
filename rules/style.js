@@ -112,7 +112,7 @@ module.exports = {
     // enforce a maximum line length
     // http://eslint.org/docs/rules/max-len
     'max-len': ['error', {
-      code: 80,
+      code: 120,
       ignoreComments: true,
       ignoreStrings: true,
       ignoreTemplateLiterals: true,

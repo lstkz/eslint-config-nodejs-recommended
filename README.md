@@ -17,7 +17,7 @@ Added rules:
 - [no-sync](http://eslint.org/docs/rules/no-sync) - disallow synchronous methods
 - [require-jsdoc](http://eslint.org/docs/rules/require-jsdoc) - require JSDoc comments
 - [valid-jsdoc](http://eslint.org/docs/rules/valid-jsdoc) - enforce valid JSDoc comments (description for params and return is not required, types are required)
-- [max-len](http://eslint.org/docs/rules/max-len) - max line length is `80`, ignored for string and comments
+- [max-len](http://eslint.org/docs/rules/max-len) - max line length is `120`, ignored for string and comments
 - [max-lines](http://eslint.org/docs/rules/max-lines) - max lines per file is `500`
 - [max-nested-callbacks](http://eslint.org/docs/rules/max-nested-callbacks) - max callback depth is `5` 
 - [max-params](http://eslint.org/docs/rules/max-params) - max parameters in functions is `5`
