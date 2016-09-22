@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/lsentkiewicz/eslint-config-nodejs-recommended/issues"
   },
-  "homepage": "https://github.com/lsentkiewicz/eslint-config-nodejs-recommended#readme"
+  "homepage": "https://github.com/lsentkiewicz/eslint-config-nodejs-recommended#readme",
+  "peerDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-lodash-fp": "^2.0.1"
+  }
 }

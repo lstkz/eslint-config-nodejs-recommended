@@ -1,0 +1,43 @@
+// https://github.com/wix/eslint-plugin-lodash/tree/master/docs/rules
+// not used, prefer fp
+module.exports = {
+  rules: {
+    'lodash/callback-binding': 'error',
+    'lodash/chain-style': ['error', 'as-needed'],
+    'lodash/collection-method-value': 'error',
+    'lodash/collection-return': 'error',
+    'lodash/consistent-compose': ['error', "flow"],
+    'lodash/identity-shorthand': ['error', 'always'],
+    'lodash/matches-prop-shorthand': ['error', 'always'],
+    'lodash/matches-shorthand': ['error', 'always', 3],
+    'lodash/no-commit': 'error',
+    'lodash/no-double-unwrap': 'error',
+    'lodash/no-extra-args': 'error',
+    'lodash/no-single-chain': 'error',
+    'lodash/path-style': ['error', 'string'],
+    'lodash/prefer-chain': ['error', 3],
+    'lodash/prefer-compact': 'error',
+    'lodash/prefer-constant': 'error',
+    'lodash/prefer-filter': ['error', 3],
+    'lodash/prefer-flat-map': 'error',
+    'lodash/prefer-get': ['error', 3],
+    'lodash/prefer-includes': ['error', {includeNative: true}],
+    'lodash/prefer-invoke-map': 'error',
+    'lodash/prefer-is-nil': 'error',
+    'lodash/prefer-lodash-chain': 'error',
+    'lodash/prefer-lodash-method': 'error',
+    'lodash/prefer-lodash-typecheck': 'error',
+    'lodash/prefer-map': 'error',
+    'lodash/prefer-matches': ['error', 3],
+    'lodash/prefer-noop': 'error',
+    'lodash/prefer-over-quantifier': 'error',
+    'lodash/prefer-reject': ['error', 3],
+    'lodash/prefer-startswith': 'error',
+    'lodash/prefer-thru': 'error',
+    'lodash/prefer-times': 'error',
+    'lodash/prefer-wrapper-method': 'error',
+    'lodash/preferred-alias': 'error',
+    'lodash/prop-shorthand': ['error', 'always'],
+    'lodash/unwrap': 'error'
+  }
+};
