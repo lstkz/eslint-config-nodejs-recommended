@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nodejs-recommended",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config for nodejs with babel",
   "main": "index.js",
   "scripts": {
