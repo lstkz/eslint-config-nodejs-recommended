@@ -59,7 +59,7 @@ module.exports = {
 
     // enforce minimum and maximum identifier lengths
     // http://eslint.org/docs/rules/id-length
-    'id-length': 'error',
+    'id-length': 'off',
 
     // require identifiers to match a specified regular expression
     // http://eslint.org/docs/rules/id-match
@@ -320,7 +320,7 @@ module.exports = {
 
     // enforce consistent spacing before function definition opening parenthesis
     // http://eslint.org/docs/rules/space-before-function-paren
-    'space-before-function-paren': 'error',
+    'space-before-function-paren': ['error', { anonymous: 'always', named: 'never' }],
 
     // enforce consistent spacing inside parentheses
     // http://eslint.org/docs/rules/space-in-parens
