@@ -9,7 +9,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'lodash-fp',
+    'lodash',
     'import',
     'babel',
   ],
@@ -22,6 +22,6 @@ module.exports = {
     './rules/variables',
     './rules/es6',
     './rules/imports',
-    './rules/lodash-fp',
+    './rules/lodash',
   ].map(require.resolve),
 };

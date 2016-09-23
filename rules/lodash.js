@@ -1,5 +1,4 @@
 // https://github.com/wix/eslint-plugin-lodash/tree/master/docs/rules
-// not used, prefer fp
 module.exports = {
   rules: {
     'lodash/callback-binding': 'error',

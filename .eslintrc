@@ -1,9 +1,11 @@
 {
   "extends": "./index.js",
+  // this file is used to check files in this repo
+  // it's used to check if eslint exucutes without any errors (syntax, wrong configuration)
+  // your app should not relax below rules
   "rules": {
-    // our repo is not a babel
     "import/no-commonjs": 0,
-    // magic number for rule configuration
     "no-magic-numbers": 0,
+    "lodash/prefer-lodash-method": 0
   }
 }

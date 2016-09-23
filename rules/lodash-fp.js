@@ -1,4 +1,5 @@
 // https://github.com/wix/eslint-plugin-lodash/tree/master/docs/rules
+// not used, prefer lodash
 module.exports = {
   rules: {
     'lodash-fp/consistent-compose': 'off',
