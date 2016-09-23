@@ -9,7 +9,10 @@ module.exports = {
 
     // require parentheses around arrow function arguments
     // http://eslint.org/docs/rules/arrow-parens
-    'arrow-parens': 'error',
+    'arrow-parens': 'off',
+
+    // fixed 'arrow-parens' (bug with async)
+    'babel/arrow-parens': 'error',
 
     // enforce consistent spacing before and after the arrow in arrow functions
     // http://eslint.org/docs/rules/arrow-spacing
