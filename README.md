@@ -10,7 +10,7 @@ It extends [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-conf
 Added rules:
 - [no-restricted-syntax](http://eslint.org/docs/rules/no-restricted-syntax) - loops (`for`, `while`) are not allowed (use `lodash` or `bluebird` for promises)
 - [complexity](http://eslint.org/docs/rules/complexity) - max complexity is `20`
-- [no-magic-numbers](http://eslint.org/docs/rules/no-magic-numbers) - disallow magic numbers, all numbers must be defined as constants (except `1` and `0`)
+- [no-magic-numbers](http://eslint.org/docs/rules/no-magic-numbers) - disallow magic numbers, all numbers must be defined as constants (except: `-1`, `0`, `1`)
 - [callback-return](http://eslint.org/docs/rules/callback-return) - require return statements after callbacks
 - [handle-callback-err](http://eslint.org/docs/rules/handle-callback-err) - require error handling in callbacks
 - [no-process-exit](http://eslint.org/docs/rules/no-process-exit) - disallow the use of `process.exit()` (some people use it for debugging)

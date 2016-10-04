@@ -149,7 +149,7 @@ module.exports = {
 
     // disallow magic numbers
     // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': ['error', { enforceConst: true, ignore: [0, 1] }],
+    'no-magic-numbers': ['error', { enforceConst: true, ignore: [-1, 0, 1] }],
 
     // disallow multiple spaces
     // http://eslint.org/docs/rules/no-multi-spaces
